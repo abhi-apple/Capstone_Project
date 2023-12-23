@@ -10,8 +10,8 @@ const HAbout = () => {
       <section className="homeAbout">
         <div className="container">
           <Heading
-            subtitle="our courses"
-            title="explore our popular online courses"
+            subtitle="Find Jobs in Technologies"
+            title="explore jobs as"
           />
 
           <div className="coursesCard">
