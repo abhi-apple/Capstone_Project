@@ -17,10 +17,11 @@ export const homeAbout = [
     title: "Recruiter will reach you out",
     desc: "There are several HRs and recruiters that are looking for skilled candidates on Seekhobharat",
   },
-]
+];
 export const awrapper = [
   {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+    cover:
+      "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
     data: "100000",
     title: "SUCCESS STORIES",
   },
@@ -31,7 +32,8 @@ export const awrapper = [
     title: "SKILLED PROFESSIONAL",
   },
   {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
+    cover:
+      "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
     data: "10000",
     title: "INTERVIEWS",
   },
@@ -40,7 +42,7 @@ export const awrapper = [
     data: "20",
     title: "Technologies",
   },
-]
+];
 export const coursesCard = [
   {
     id: 1,
@@ -49,7 +51,6 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "coding.png",
-      
       },
     ],
     priceAll: "100000 people are looking for this role.",
@@ -61,7 +62,7 @@ export const coursesCard = [
     coursesName: "Product Engineer",
     courTeacher: [
       {
-        dcover: "growth.png"
+        dcover: "growth.png",
       },
     ],
     priceAll: "10000 people are looking for this role",
@@ -73,7 +74,7 @@ export const coursesCard = [
     coursesName: "Data Analyst",
     courTeacher: [
       {
-        dcover: "coding.png"
+        dcover: "coding.png",
       },
     ],
     priceAll: "23000 people are looking for this role",
@@ -163,7 +164,7 @@ export const coursesCard = [
     priceAll: "$20 All Course",
     pricePer: "$3 per month",
   },
-]
+];
 export const online = [
   {
     cover: "./images/courses/online/o1.png",
@@ -237,7 +238,7 @@ export const online = [
     courseName: "Web Management",
     course: "40000 jobs",
   },
-]
+];
 export const team = [
   {
     cover: "airbnb.png",
@@ -279,29 +280,29 @@ export const team = [
     name: "Ph.D Brian Wooden",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
-]
-export const price = [
+];
+export const job = [
   {
     name: "Full Stack Development",
-    price: "9 lakhs",
+    job: "9 lakhs",
     desc: "Embark on a comprehensive journey in Full Stack Development with Seekho Bharat. Whether you're passionate about crafting seamless user experiences or delving into server-side logic, our platform connects you with opportunities to master both front-end and back-end technologies. ",
   },
   {
     name: "Cloud Engineering",
-    price: "7 lakhs",
+    job: "7 lakhs",
     desc: "Elevate your career to new heights with Seekho Bharat's Cloud Engineering opportunities. Dive into the world of scalable and resilient cloud architectures, working with leading cloud platforms.",
   },
   {
     name: "Data Science",
-    price: "10 lakhs",
+    job: "10 lakhs",
     desc: "Unleash the power of data with Seekho Bharat's Data Science careers. Whether you're passionate about extracting insights, building predictive models, or creating data-driven solutions, our platform connects you with opportunities at the forefront of the data science revolution.",
   },
   {
     name: "Product Management",
-    price: "16 lakhs",
+    job: "16 lakhs",
     desc: "Enter the dynamic world of Product Management with Seekho Bharat. As a product manager, you play a pivotal role in shaping the success of a product from ideation to market launch. Our platform connects you with opportunities to lead cross-functional teams, define product strategies, and drive innovation.",
   },
-]
+];
 export const faq = [
   {
     title: "How to Enroll This Online Courses?",
@@ -327,7 +328,7 @@ export const faq = [
     title: "How It is hidden by default, until the collapse?",
     desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
   },
-]
+];
 export const blog = [
   {
     id: 1,
@@ -383,47 +384,40 @@ export const blog = [
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
     cover: "../images/blog/b6.webp",
   },
-]
-
+];
 
 export const tech = [
   {
-    
     title: "Fullstack Development",
     desc: "Elevate your career in the dynamic realm of Full stack development with Seekho Bharat. Explore opportunities to work on cutting-edge technologies and groundbreaking projects that shape the digital landscape.",
     cover: "fullstack.png",
   },
   {
-    
     title: "Cloud Engineering",
     desc: "Dive into the realm of Cloud Engineering with Seekho Bharat. Unleash your creativity and technical prowess as you collaborate with industry leaders to build innovative products that make a lasting impact. Our platform connects aspiring engineers. ",
     cover: "cloud.png",
   },
   {
-    
     title: "Data Science",
     desc: "Unlock the power of data with Seekho Bharat's Data Science opportunities. Whether you're a data enthusiast, analyst, or scientist, our platform connects you with companies at the forefront of leveraging data for insights and decision-making.",
     cover: "ds.png",
   },
   {
-    
     title: "Business Management",
     desc: "Elevate your career in the dynamic realm of Management with Seekho Bharat. Explore opportunities to work on cutting-edge technologies and groundbreaking projects that shape the digital landscape.",
     cover: "bm.jpeg",
   },
   {
-    
     title: "UI/UX Designer",
     desc: "Dive into the realm of designing with Seekho Bharat. Unleash your creativity and technical prowess as you collaborate with industry leaders to build innovative products that make a lasting impact. Our platform connects aspiring engineers. ",
     cover: "ui.jpeg",
   },
   {
-    
     title: "AI&ML",
     desc: "Unlock the power of AI with Seekho Bharat's AIML opportunities. Whether you're a data enthusiast, AI enthusiast our platform connects you with companies at the forefront of leveraging data for insights and decision-making.",
     cover: "aiml.jpeg",
-  }
-]
+  },
+];
 
 export const testimonal = [
   {
@@ -447,4 +441,4 @@ export const testimonal = [
     desc: "At Seekho Bharat, we are honored to partner with Deloitte, a global leader in professional services. Our collaboration with Deloitte is grounded in a shared vision of fostering talent and cultivating the next generation of industry leaders. ",
     cover: "deloitte.png",
   },
-]
+];
