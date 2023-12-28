@@ -384,6 +384,47 @@ export const blog = [
     cover: "../images/blog/b6.webp",
   },
 ]
+
+
+export const tech = [
+  {
+    
+    title: "Fullstack Development",
+    desc: "Elevate your career in the dynamic realm of Full stack development with Seekho Bharat. Explore opportunities to work on cutting-edge technologies and groundbreaking projects that shape the digital landscape.",
+    cover: "fullstack.png",
+  },
+  {
+    
+    title: "Cloud Engineering",
+    desc: "Dive into the realm of Cloud Engineering with Seekho Bharat. Unleash your creativity and technical prowess as you collaborate with industry leaders to build innovative products that make a lasting impact. Our platform connects aspiring engineers. ",
+    cover: "cloud.png",
+  },
+  {
+    
+    title: "Data Science",
+    desc: "Unlock the power of data with Seekho Bharat's Data Science opportunities. Whether you're a data enthusiast, analyst, or scientist, our platform connects you with companies at the forefront of leveraging data for insights and decision-making.",
+    cover: "ds.png",
+  },
+  {
+    
+    title: "Business Management",
+    desc: "Elevate your career in the dynamic realm of Management with Seekho Bharat. Explore opportunities to work on cutting-edge technologies and groundbreaking projects that shape the digital landscape.",
+    cover: "bm.jpeg",
+  },
+  {
+    
+    title: "UI/UX Designer",
+    desc: "Dive into the realm of designing with Seekho Bharat. Unleash your creativity and technical prowess as you collaborate with industry leaders to build innovative products that make a lasting impact. Our platform connects aspiring engineers. ",
+    cover: "ui.jpeg",
+  },
+  {
+    
+    title: "AI&ML",
+    desc: "Unlock the power of AI with Seekho Bharat's AIML opportunities. Whether you're a data enthusiast, AI enthusiast our platform connects you with companies at the forefront of leveraging data for insights and decision-making.",
+    cover: "aiml.jpeg",
+  }
+]
+
 export const testimonal = [
   {
     id: 1,

@@ -1,10 +1,10 @@
 import React from "react"
-import { blog } from "../../dummydata"
+import { tech } from "../../dummydata"
 
 const BlogCard = () => {
   return (
     <>
-      {blog.map((val) => (
+      {tech.map((val) => (
         <div className='items shadow'>
           <div className='img'>
             <img src={val.cover} alt='' />
