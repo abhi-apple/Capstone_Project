@@ -1,3 +1,8 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .price .items {
   padding: 40px;
   text-align: center;
@@ -45,3 +50,72 @@
 }
 
 /*--------------faq-------------*/
+
+.search-container {
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
+
+  /* max-width: fit-content; */
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  display: flex;
+
+  gap: 10px;
+}
+
+.search-box {
+  width: 200px;
+}
+
+.search-box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.search-button {
+  margin-top: 0;
+  width: 100px;
+  padding: 0.75rem;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}
+
+.experience-input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Adjustments for label */
+.exp-label {
+  margin-bottom: 6px;
+  display: block;
+  font-weight: bold;
+}
+
+.no-results-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.big-font {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: Adjust font weight as needed */
+  color: #333; /* Optional: Adjust text color as needed */
+}
