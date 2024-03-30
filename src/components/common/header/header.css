@@ -75,3 +75,31 @@ header ul li a:hover {
     background-color: #1eb2a6;
   }
 }
+.flexSB {
+  display: flex;
+  justify-content: space-between; /* Aligns the items at the ends */
+  align-items: center; /* Centers items vertically */
+}
+
+.right-align {
+  display: flex;
+  align-items: center;
+  margin-top: -2em;
+}
+.pb {
+  background-color: transparent;
+  border: 2px solid #4caf50; /* Green border */
+  color: black; /* Green text */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  /* border-radius: 10%; */
+}
+
+.pb:hover {
+  background-color: #4caf50; /* Green background */
+  color: #fff; /* White text on hover */
+  border: 1px solid #4caf50; /* Green border */
+}
+

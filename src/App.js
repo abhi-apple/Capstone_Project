@@ -3,6 +3,7 @@ import Header from "./components/common/header/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
+import CourseTagsPage from "./components/allcourses/CourseTagsPage";
 import Team from "./components/team/Team";
 import JobPage from "./components/jobs/JobPage";
 import Blog from "./components/blog/Blog";
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/courses" component={CourseHome} />
+          <Route path="/courses/:domain" component={CourseTagsPage} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/jobs" component={JobPage} />
           <Route exact path="/technologies" component={Blog} />

@@ -104,6 +104,7 @@ const JobPage = () => {
       <Back title="Find Your Job" />
       <section className="price padding">
         <div className="search-container">
+        <p className="big-font tle">Search for Your Job</p>
           <div className="search-box-container">
             <label className="search-label">Job Interests:</label>
             <Select
@@ -155,7 +156,7 @@ const JobPage = () => {
               <JobCard jobData={jobData.data} />
             ) : (
               <div className="no-results-text">
-                <p className="big-font">Search for Your Job</p>
+                {/* <p className="big-font">Search for Your Job</p> */}
               </div>
             )}
           </>

@@ -20,13 +20,15 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>SEEKHO BHARAT</h1>
+          <h1 style={{ fontSize: '5em', marginRight: '5em' }}>SEEKHO BHARAT</h1>
+
+
            
            
 
            
           </div>
-          <div className='box link'>
+          {/* <div className='box link'>
             <h3>Explore</h3>
             <ul>
               <li>About Us</li>
@@ -66,7 +68,7 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
           <div className='box last'>
             <h3>Have a Questions?</h3>
             <ul>

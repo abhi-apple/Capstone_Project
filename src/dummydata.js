@@ -241,45 +241,31 @@ export const online = [
 ];
 export const team = [
   {
-    cover: "airbnb.png",
-    name: "Airbnb",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t1.webp",
+    name: "Abhinay Reddy",
+    work: "DEVELOPER AND FOUNDER",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t2.jpeg",
+    name: "Priya Singh Thakur",
+    work: "DEVELOPER AND FOUNDER",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t3.jpeg",
+    name: "Sneha Agarwal",
+    work: "DEVELOPER AND FOUNDER",
   },
   {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t4.jpeg",
+    name: "Tanishq Vyas",
+    work: "DEVELOPER AND FOUNDER",
   },
   {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t1.jpeg",
+    name: "Gaurav Sahu",
+    work: "DEVELOPER AND FOUNDER",
   },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
+  
 ];
 export const job = [
   {
@@ -305,28 +291,28 @@ export const job = [
 ];
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How do I filter job listings based on my job interest?",
+    desc: "To filter job listings based on your job interest, simply use the job interest dropdown menu available on the filter section of the website. Select your desired job category such as Software Developer,Data Analyst, etc., and the website will display relevant job listings matching your chosen category.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Can I filter job listings by the date they were posted?",
+    desc: "Yes, you can filter job listings by the date they were posted. In the filter section, you'll find an option to select the job posted date. Choose from options like Today, Last 7 Days, Last 30 Days, etc., to view job listings posted within your preferred timeframe.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How can I search for job opportunities in a specific location?",
+    desc: "To search for job opportunities in a specific location, use the location filter available on the website. Simply enter the location you're interested in, whether it's a city, state, or country, and the website will display job listings available in that particular location.",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Is it possible to filter job listings based on years of experience required?",
+    desc: "Yes, you can filter job listings based on the years of experience required. In the filter section, you'll find an option to specify the minimum and maximum years of experience desired for a job. Enter your preferred range, such as 0-2 years,3-5 years,5+ years, etc., to narrow down the job listings accordingly.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How frequently are job listings updated on the website?",
+    desc: "Job listings on the website are updated regularly to ensure you have access to the latest opportunities. The frequency of updates may vary, but typically you can expect new job listings to be added and existing ones to be refreshed multiple times throughout the day.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Are there any additional search filters available for refining job listings?",
+    desc: "Yes, in addition to job interest, job posted date, location, and years of experience, there may be other search filters available depending on the website's functionality. These additional filters could include options such as job type (full-time, part-time, contract), salary range, company size, and more, allowing you to further refine your job search criteria.",
   },
 ];
 export const blog = [
@@ -442,3 +428,16 @@ export const testimonal = [
     cover: "deloitte.png",
   },
 ];
+export const courses = {
+  "UI/UX Design": [
+    { id: 1, title: "UI Basics", tags: ["ui", "design", "basics"] },
+    { id: 2, title: "Prototyping", tags: ["ui", "design", "prototyping"] },
+    // Add more courses for UI/UX Design
+  ],
+  "Computer Science": [
+    { id: 1, title: "Introduction to Algorithms", tags: ["computer science", "algorithms"] },
+    { id: 2, title: "Data Structures", tags: ["computer science", "data structures"] },
+    // Add more courses for Computer Science
+  ],
+  // Define courses for other domains
+};
