@@ -241,7 +241,7 @@ export const online = [
 ];
 export const team = [
   {
-    cover: "./images/team/t1.webp",
+    cover: "./images/team/t5.jpeg",
     name: "Abhinay Reddy",
     work: "DEVELOPER AND FOUNDER",
   },

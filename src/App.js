@@ -1,5 +1,7 @@
 import "./App.css";
 import Header from "./components/common/header/Header";
+import LoginPage from "./components/common/header/LoginPage";
+import RegisterPage from "./components/common/header/RegisterPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
@@ -10,6 +12,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import { Login } from "@mui/icons-material";
 function App() {
   return (
     <>
@@ -24,6 +27,9 @@ function App() {
           <Route exact path="/jobs" component={JobPage} />
           <Route exact path="/technologies" component={Blog} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/login" component={LoginPage} />
+          <Route exact path="/register" component={RegisterPage} />
+
         </Switch>
         <Footer />
       </Router>

@@ -38,17 +38,9 @@ const Header = () => {
           </ul>
           <div className="right-align">
             <Link to="/register"><button className="primary-btn b1">Signup</button></Link>
-            <Link to="/login"><button className="p b2">Login</button></Link>
+            <Link to="/login"><button className="pb b2">Login</button></Link>
           </div>
-          {/* Conditionally render profile button */}
-          {isLoggedIn ? (
-            <Link to="/profile">
-              <button className="profile-btn">Profile</button>
-            </Link>
-          ) : null}
-          <button className="toggle" onClick={() => setClick(!click)}>
-            {click ? <i className="fa fa-times"> </i> : <i className="fa fa-bars"></i>}
-          </button>
+          
         </nav>
       </header>
     </>
