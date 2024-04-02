@@ -53,7 +53,7 @@ export const coursesCard = [
         dcover: "coding.png",
       },
     ],
-    priceAll: "100000 people are looking for this role.",
+    priceAll: "Master both front-end and back-end development skills to create dynamic, end-to-end web applications proficiently.",
     pricePer: "700000 avg salary",
   },
   {
@@ -65,7 +65,7 @@ export const coursesCard = [
         dcover: "growth.png",
       },
     ],
-    priceAll: "10000 people are looking for this role",
+    priceAll: " Dive into the process of conceptualizing, designing, and developing innovative digital products with a focus on user experience and market viability.",
     pricePer: "600000 avg salary",
   },
   {
@@ -77,7 +77,7 @@ export const coursesCard = [
         dcover: "coding.png",
       },
     ],
-    priceAll: "23000 people are looking for this role",
+    priceAll: "Acquire the skills to gather, analyze, and interpret data effectively, transforming raw data into valuable insights for informed decision-making.",
     pricePer: "500000 avg salary",
   },
   {
@@ -91,7 +91,7 @@ export const coursesCard = [
         totalTime: "20 lectures (20 hrs)",
       },
     ],
-    priceAll: "$30 All Course",
+    priceAll: "Learn the basics of programming while creating custom websites and themes using the versatile WordPress platform.",
     pricePer: "$3 per month",
   },
   {
@@ -105,7 +105,7 @@ export const coursesCard = [
         totalTime: "100 lectures (150 hrs)",
       },
     ],
-    priceAll: "$300 All Course",
+    priceAll: "Start your journey into front-end development by mastering ReactJS, a powerful library for building dynamic and responsive user interfaces.",
     pricePer: "$30 per month",
   },
   {
@@ -119,7 +119,7 @@ export const coursesCard = [
         totalTime: "200 lectures (300 hrs)",
       },
     ],
-    priceAll: "$500 All Course",
+    priceAll: " Explore the fundamentals of front-end programming languages like HTML, CSS, and JavaScript to create engaging and interactive web experiences.",
     pricePer: "$80 per month",
   },
   {
@@ -133,7 +133,7 @@ export const coursesCard = [
         totalTime: "20 lectures (50 hrs)",
       },
     ],
-    priceAll: "$20 All Course",
+    priceAll: "Delve into the essentials of web development with HTML and CSS, mastering the building blocks of modern website design.",
     pricePer: "$2 per month",
   },
   {
@@ -147,7 +147,7 @@ export const coursesCard = [
         totalTime: "80 lectures (200 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
+    priceAll: "Begin your programming journey with Java, a versatile and widely-used language known for its reliability and scalability in building diverse software applications.",
     pricePer: "$40 per month",
   },
   {
@@ -161,9 +161,567 @@ export const coursesCard = [
         totalTime: "50 lectures (50 hrs)",
       },
     ],
+    priceAll: "Gain a comprehensive understanding of web development fundamentals by learning HTML, CSS, and JavaScript, the core technologies behind dynamic and interactive websites.",
+    pricePer: "$3 per month",
+  },
+  
+];
+export const coursesCard2 = [
+  {
+    id: 1,
+    cover: "../images/courses/c1.png",
+    coursesName: "Design Fundamentals for User Interfaces",
+    courTeacher: [
+      {
+        dcover: "coding.png",
+      },
+    ],
+    priceAll: " Learn the foundational principles of UI design, including layout, typography, color theory, and user experience essentials.",
+    pricePer: "700000 avg salary",
+  },
+  {
+    id: 2,
+    cover: "growth.png",
+    coursesName: "Interactive Prototyping with Adobe XD",
+    courTeacher: [
+      {
+        dcover: "growth.png",
+      },
+    ],
+    priceAll: " Dive into Adobe XD and master interactive prototyping techniques to create engaging user experiences for web and mobile applications.",
+    pricePer: "600000 avg salary",
+  },
+  {
+    id: 3,
+    cover: "../images/courses/c3.png",
+    coursesName: "User Research and Usability Testing",
+    courTeacher: [
+      {
+        dcover: "coding.png",
+      },
+    ],
+    priceAll: "Explore methodologies for conducting effective user research and usability testing to gather insights and enhance the usability of your designs.",
+    pricePer: "500000 avg salary",
+  },
+  {
+    id: 4,
+    cover: "../images/courses/c4.png",
+    coursesName: "Visual Design for Mobile Apps",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Prabin Thapa Mager",
+        totalTime: "20 lectures (20 hrs)",
+      },
+    ],
+    priceAll: "Discover best practices for designing visually stunning and user-friendly mobile app interfaces optimized for various screen sizes and resolutions.",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 5,
+    cover: "../images/courses/c5.png",
+    coursesName: "Design Thinking for UX Designers",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Sunil Bishowkaram",
+        totalTime: "100 lectures (150 hrs)",
+      },
+    ],
+    priceAll: "Harness the power of design thinking to solve complex problems, empathize with users, and create innovative solutions that meet user needs effectively.",
+    pricePer: "$30 per month",
+  },
+  {
+    id: 6,
+    cover: "../images/courses/c6.png",
+    coursesName: "Responsive Web Design Principles",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Sunil Bishowkaram",
+        totalTime: "200 lectures (300 hrs)",
+      },
+    ],
+    priceAll: " Learn how to create responsive web designs that adapt seamlessly to different devices and screen sizes, improving accessibility and user satisfaction.",
+    pricePer: "$80 per month",
+  },
+  {
+    id: 7,
+    cover: "../images/courses/c7.png",
+    coursesName: "Introducing to with HTML / CSS",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Price",
+        totalTime: "20 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "Delve into the essentials of web development with HTML and CSS, mastering the building blocks of modern website design.",
+    pricePer: "$2 per month",
+  },
+  {
+    id: 8,
+    cover: "../images/courses/c8.png",
+    coursesName: "Introducing to with JAVA",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "80 lectures (200 hrs)",
+      },
+    ],
+    priceAll: "Begin your programming journey with Java, a versatile and widely-used language known for its reliability and scalability in building diverse software applications.",
+    pricePer: "$40 per month",
+  },
+  {
+    id: 9,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "Gain a comprehensive understanding of web development fundamentals by learning HTML, CSS, and JavaScript, the core technologies behind dynamic and interactive websites.",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 10,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
     priceAll: "$20 All Course",
     pricePer: "$3 per month",
   },
+  {
+    id: 11,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 12,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 13,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 14,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 15,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 16,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 17,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 18,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 19,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 20,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 21,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 22,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 23,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 24,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 25,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 26,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 27,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 28,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 29,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 30,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 31,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 32,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 33,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 34,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 35,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 36,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 37,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 38,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 39,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 40,
+    cover: "../images/courses/c9.png",
+    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Petter",
+        totalTime: "50 lectures (50 hrs)",
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+  
 ];
 export const online = [
   {
