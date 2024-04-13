@@ -12,14 +12,16 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import HomePage from "./pages/HomePage";
 import { Login } from "@mui/icons-material";
 function App() {
   return (
     <>
       <Router>
+        <Route exact path="/HomePage" component={HomePage} />
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route path="/" component={Home} exact />
           <Route exact path="/about" component={About} />
           <Route exact path="/courses" component={CourseHome} />
           <Route path="/courses/:domain" component={CourseTagsPage} />
@@ -29,7 +31,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/login" component={LoginPage} />
           <Route exact path="/register" component={RegisterPage} />
-
         </Switch>
         <Footer />
       </Router>
