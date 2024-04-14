@@ -7,8 +7,8 @@ const jwt = require("jsonwebtoken");
 
 router.post("/register", async (req, res) => {
   try {
-    const { username, password } = req.body;
-    const user = new User({ username, password });
+    const { userName, password } = req.body;
+    const user = new User({ userName, password });
     await user.save();
     res.status(201).send("User registered successfully");
   } catch (error) {
@@ -19,8 +19,8 @@ router.post("/register", async (req, res) => {
 
 router.post("/login", async (req, res) => {
   try {
-    const { username, password } = req.body;
-    const user = await User.findOne({ username });
+    const { userName, password } = req.body;
+    const user = await User.findOne({ userName });
     if (!user) return res.status(404).send("User not found");
     const isMatch = await user.comparePassword(password);
     if (!isMatch) return res.status(401).send("Invalid credentials");
