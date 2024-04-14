@@ -5,15 +5,18 @@ import "./header.css";
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Define isLoggedIn state
 
+  const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem("token"));
 
   return (
     <>
       <Head />
       <header>
         <nav className="flexSB">
-          <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
+          <ul
+            className={click ? "mobile-nav" : "flexSB "}
+            onClick={() => setClick(false)}
+          >
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -36,11 +39,21 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
-          <div className="right-align">
-            <Link to="/register"><button className="primary-btn b1">Signup</button></Link>
-            <Link to="/login"><button className="pb b2">Login</button></Link>
-          </div>
-          
+
+          {isLoggedIn ? (
+            <div className="right-align">
+              <p>Hello</p>
+            </div>
+          ) : (
+            <div className="right-align">
+              <Link to="/register">
+                <button className="primary-btn b1">Signup</button>
+              </Link>
+              <Link to="/login">
+                <button className="pb b2">Login</button>
+              </Link>
+            </div>
+          )}
         </nav>
       </header>
     </>

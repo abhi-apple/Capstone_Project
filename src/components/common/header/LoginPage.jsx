@@ -1,37 +1,62 @@
-import React, { useState } from 'react';
-import './LoginPage.css'; // Import your CSS file
-
+import React, { useState } from "react";
+import "./LoginPage.css"; // Import your CSS file
+import { useHistory } from "react-router-dom";
 function LoginPage() {
+  const history = useHistory();
   const [formData, setFormData] = useState({
-    email: '',
-    password: ''
+    userName: "",
+    password: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prevState => ({
+    setFormData((prevState) => ({
       ...prevState,
-      [name]: value
+      [name]: value,
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Validate form data here
-    console.log(formData);
+
+    try {
+      const response = await fetch("http://localhost:4242/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Login successful");
+        console.log("Token:", data.token);
+        localStorage.setItem("token", data.token);
+        // You can store the token in localStorage or sessionStorage here
+        // Redirect the user to another page or perform other actions as needed
+        history.push("/HomePage");
+      } else {
+        console.error("Failed to login");
+      }
+    } catch (error) {
+      console.error("Error logging in:", error);
+    }
   };
 
   return (
-    <div className="white1"> {/* Apply a class for white background */}
+    <div className="white1">
+      {" "}
+      {/* Apply a class for white background */}
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="userName">userName:</label>
           <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
+            type="userName"
+            id="userName"
+            name="userName"
+            value={formData.userName}
             onChange={handleChange}
             className="input-field" // Apply a class for styling
           />
@@ -47,7 +72,10 @@ function LoginPage() {
             className="input-field" // Apply a class for styling
           />
         </div>
-        <button type="submit" className="login-button">Login</button> {/* Apply a class for styling */}
+        <button type="submit" className="login-button">
+          Login
+        </button>{" "}
+        {/* Apply a class for styling */}
       </form>
     </div>
   );

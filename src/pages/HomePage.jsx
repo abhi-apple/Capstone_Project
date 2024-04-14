@@ -57,12 +57,8 @@ function Homepage() {
                 <Tab>Sign Up</Tab>
               </TabList>
               <TabPanels>
-                <TabPanel>
-                  <Login />
-                </TabPanel>
-                <TabPanel>
-                  <Signup />
-                </TabPanel>
+                <TabPanel>{/* <Login /> */}</TabPanel>
+                <TabPanel>{/* <Signup /> */}</TabPanel>
               </TabPanels>
             </Tabs>
           </Box>
