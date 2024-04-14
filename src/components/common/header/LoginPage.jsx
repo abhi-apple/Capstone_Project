@@ -31,8 +31,9 @@ function LoginPage() {
       if (response.ok) {
         const data = await response.json();
         console.log("Login successful");
-        console.log("Token:", data.token);
+        console.log("Token:", data);
         localStorage.setItem("token", data.token);
+        localStorage.setItem("userName", data.userName);
         // You can store the token in localStorage or sessionStorage here
         // Redirect the user to another page or perform other actions as needed
         history.push("/HomePage");
