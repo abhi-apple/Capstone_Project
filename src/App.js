@@ -14,27 +14,67 @@ import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
 import HomePage from "./pages/HomePage";
 import { Login } from "@mui/icons-material";
-function App() {
+
+function DefaultLayout({ children }) {
   return (
     <>
-      <Router>
-        <Route exact path="/HomePage" component={HomePage} />
-        <Header />
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/courses" component={CourseHome} />
-          <Route path="/courses/:domain" component={CourseTagsPage} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/jobs" component={JobPage} />
-          <Route exact path="/technologies" component={Blog} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/login" component={LoginPage} />
-          <Route exact path="/register" component={RegisterPage} />
-        </Switch>
-        <Footer />
-      </Router>
+      <Header />
+      {children}
+      <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/HomePage" exact>
+          <DefaultLayout>
+            <Home />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/about">
+          <DefaultLayout>
+            <About />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/courses">
+          <DefaultLayout>
+            <CourseHome />
+          </DefaultLayout>
+        </Route>
+        <Route path="/courses/:domain">
+          <DefaultLayout>
+            <CourseTagsPage />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/team">
+          <DefaultLayout>
+            <Team />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/jobs">
+          <DefaultLayout>
+            <JobPage />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/technologies">
+          <DefaultLayout>
+            <Blog />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/contact">
+          <DefaultLayout>
+            <Contact />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/register" component={RegisterPage} />
+      </Switch>
+
+      <Route exact path="/" component={HomePage} />
+    </Router>
   );
 }
 
