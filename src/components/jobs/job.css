@@ -119,3 +119,11 @@
   font-weight: bold; /* Optional: Adjust font weight as needed */
   color: #333; /* Optional: Adjust text color as needed */
 }
+
+.tle{
+  margin-right: 3em;
+  margin-left: -1em;
+  padding: 0.2em 0.5em;
+  border: 1px solid black;
+  border-radius: 1em;
+}

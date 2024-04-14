@@ -1,31 +1,80 @@
 import "./App.css";
 import Header from "./components/common/header/Header";
+import LoginPage from "./components/common/header/LoginPage";
+import RegisterPage from "./components/common/header/RegisterPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
+import CourseTagsPage from "./components/allcourses/CourseTagsPage";
 import Team from "./components/team/Team";
 import JobPage from "./components/jobs/JobPage";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
-function App() {
+import HomePage from "./pages/HomePage";
+import { Login } from "@mui/icons-material";
+
+function DefaultLayout({ children }) {
   return (
     <>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/courses" component={CourseHome} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/jobs" component={JobPage} />
-          <Route exact path="/technologies" component={Blog} />
-          <Route exact path="/contact" component={Contact} />
-        </Switch>
-        <Footer />
-      </Router>
+      <Header />
+      {children}
+      <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/HomePage" exact>
+          <DefaultLayout>
+            <Home />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/about">
+          <DefaultLayout>
+            <About />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/courses">
+          <DefaultLayout>
+            <CourseHome />
+          </DefaultLayout>
+        </Route>
+        <Route path="/courses/:domain">
+          <DefaultLayout>
+            <CourseTagsPage />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/team">
+          <DefaultLayout>
+            <Team />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/jobs">
+          <DefaultLayout>
+            <JobPage />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/technologies">
+          <DefaultLayout>
+            <Blog />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/contact">
+          <DefaultLayout>
+            <Contact />
+          </DefaultLayout>
+        </Route>
+        <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/register" component={RegisterPage} />
+      </Switch>
+
+      <Route exact path="/" component={HomePage} />
+    </Router>
   );
 }
 
