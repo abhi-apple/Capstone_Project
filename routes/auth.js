@@ -8,8 +8,20 @@ const jwt = require("jsonwebtoken");
 router.post("/register", async (req, res) => {
   try {
     const { userName, password } = req.body;
+
+    if (!userName) {
+      return res.status(400).send("Username is required");
+    }
+
+    const existingUser = await User.findOne({ userName });
+    if (existingUser) {
+      return res.status(400).send("Username already exists");
+    }
+
     const user = new User({ userName, password });
+
     await user.save();
+
     res.status(201).send("User registered successfully");
   } catch (error) {
     console.error(error);
